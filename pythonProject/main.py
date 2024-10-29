@@ -1,8 +1,8 @@
-
-
+with open('list_of_addresses.txt') as file:
+    lines = [line for line in file]
+    print(lines)
 
 def road(full_addresses: list, list_of_addresses: list):
-    # full_addresses = ['Ленина 15а', 'Свободы 9', 'Туполева 9и', 'Ростовская 67', 'Менделеева 3', 'Костромская 13']
     sorted_list = []
     for address in full_addresses:
 
